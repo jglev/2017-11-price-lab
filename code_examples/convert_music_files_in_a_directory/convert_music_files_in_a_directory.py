@@ -1,3 +1,5 @@
+"""This script converts mp3s to wav files."""
+
 # =============================================================================
 # Import libraries
 # =============================================================================
@@ -12,10 +14,6 @@ from pydub import AudioSegment  # For converting between formats, using ffmpeg
 
 directory_of_music_files = 'music'
 
-# This should be either mp3 or wav:
-convert_from_mp3 = 'mp3'  # We will use this to search for files in
-# the directory_of_music_files
-
 # =============================================================================
 # Convert the files in the directory
 # =============================================================================
@@ -26,21 +24,20 @@ convert_from_mp3 = 'mp3'  # We will use this to search for files in
 # Get just the files that end in '.mp3' (for example):
 files_to_convert = glob.glob(os.path.join(
         directory_of_music_files,
-        f'*.{music_format_to_convert_from}'))
+        f'*.mp3'))
 
 for file_to_convert in files_to_convert:
     print(f'Processing "{file_to_convert}"...')
 
     # Get just the filename, not the directories it's in:
     file_name = os.path.basename(file_to_convert)
-    
-    if music_format_to_convert_from == 'mp3':
-        conversion_process = AudioSegment.from_mp3(file_to_convert)
-        file_extension_to_convert_to = 'wav'
-        
-    elif music_format_to_convert_from == 'wav':
-        conversion_process = AudioSegment.from_wav(file_to_convert)
-        file_extension_to_convert_to = 'mp3'
-    
+    file_name_without_extension = os.path.splitext(file_name)[0]
+
     # Convert the file:
-    AudioSegment.from_wav("/input/file.wav")
+    conversion_process = AudioSegment.from_mp3(file_to_convert)
+
+    # Save the converted file:
+    conversion_process.export(
+            os.path.join(
+                    directory_of_music_files,
+                    f'{file_name_without_extension}.wav'))
