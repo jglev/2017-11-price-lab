@@ -1,4 +1,7 @@
-"""This script converts mp3s to wav files."""
+"""This script converts mp3s to wav files.
+
+If you would like it to convert wav files to mp3s, you can replace all
+instances of 'mp3' with 'wav' below."""
 
 # =============================================================================
 # Import libraries
