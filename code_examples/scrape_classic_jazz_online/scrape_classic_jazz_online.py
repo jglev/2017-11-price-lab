@@ -1,3 +1,7 @@
+"""Take a URL and scrape MP3s from its links.
+
+This script curently uses one URL, set in the 'Settings' section below."""
+
 # =============================================================================
 # Import libraries
 # =============================================================================
