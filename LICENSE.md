@@ -4,4 +4,4 @@ The music files in this repository are in the Public Domain in the United States
 
 > It is not the intent of Jazz On Line to infringe any copyright; we believe the material offered on this website to be public domain.
 
-All files not covered above are released under a [CC-BY 4.0 International license](https://creativecommons.org/licenses/by/4.0/), copyright Jacob Levernier 2017.
+All files not covered above are released under a [CC-BY 4.0 International license](https://creativecommons.org/licenses/by/4.0/), copyright Jacob Levernier 2017. Please feel free to email Jacob at <jlevern@upenn.edu> if you would like to arrange an alternative license.
