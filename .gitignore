@@ -1,0 +1,5 @@
+.directory
+code_examples/scrape_classic_jazz_online/music
+code_examples/scrape_from_oclc_api/config.py
+code_examples/scrape_from_oclc_api/*.csv
+__pycache__
