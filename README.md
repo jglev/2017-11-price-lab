@@ -40,5 +40,6 @@ The Price Lab for Digital Humanities, University of Pennsylvania
 	- [LearnXinYMinutes: `python3`](https://learnxinyminutes.com/docs/python3/)
 	- ["Python for Converts"](https://www.ifokr.org/bri/presentations/lfnw-2014-python/), a 2014 presentation by Bri Hatch at the LinuxFest NorthWest conference
 	- Python's [`python3` tutorial](https://docs.python.org/3/tutorial/)
-	- The Software Carpentry ["Gapminder" `python3` lesson Glossary page](https://swcarpentry.github.io/python-novice-inflammation/reference/)
+	- The Software Carpentry [`python3` lesson Glossary page](https://swcarpentry.github.io/python-novice-inflammation/reference/)  
+	  Also, the Software Carpentry ["Gapminder" `python3` lesson](https://swcarpentry.github.io/python-novice-gapminder/)
 		- All of [Software Carpentry's](software-carpentry.org) materials are made available under a [CC-By license](https://creativecommons.org/licenses/by/4.0/).
