@@ -28,5 +28,6 @@ The Price Lab for Digital Humanities, University of Pennsylvania
 
 ## Resources to have open
 
+- [Installation instructions](http://installation.software-carpentry.org/) for `python` (version 3.6) and `bash`, from [Software Carpentry](software-carpentry.org).
 - **[PEP (Python Enhancement Proposal) 8](https://www.python.org/dev/peps/pep-0008/)** the Style Guide for writing Python
 	- If you like PEP 8, you'll also probably like **[PEP (Python Enhancement Proposal) 20](https://www.python.org/dev/peps/pep-0020/),** *The Zen of Python,* on the philosophy of the Python community.
