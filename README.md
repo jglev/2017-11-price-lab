@@ -44,4 +44,4 @@ The Price Lab for Digital Humanities, University of Pennsylvania
 		- The Software Carpentry [`python3` lesson Glossary page](https://swcarpentry.github.io/python-novice-inflammation/reference/)
 		- The Software Carpentry ["Gapminder" `python3` lesson](https://swcarpentry.github.io/python-novice-gapminder/)
 		- The Software Carpentry ["Unix Shell" ("`bash`") lesson](http://swcarpentry.github.io/shell-novice/)
-		
+		- [Yhat's blog post on `ggplot` for `python`](http://blog.yhat.com/posts/ggplot-for-python.html)
