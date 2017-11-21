@@ -48,16 +48,17 @@ website_parsed_data = BeautifulSoup(website_html_data, 'html.parser')
 # Get all links of the type we're looking for (any links ('<a>...</a>' that
 # end in '.mp3'):
 links_from_website = website_parsed_data.find_all('a')
-
+type(links_from_website)
 # Let's get just the MP3 links. Here are *two ways* to do this:
 
 # Option 1: A "for loop:"
 mp3_links_from_website = []  # Create a blank list. We'll add to this as we go.
 
 for link in links_from_website:
+    # link = links_from_website[0]  # Useful for testing.
     link_url = link['href']
 
-    if link_url.endswith('.mp3'):
+    if link_url.endswith('.mp3') is True:
         mp3_links_from_website.append(link_url)
 
 # Option 2: A wildcard search.
@@ -75,6 +76,7 @@ for link in links_from_website:
 # =============================================================================
 # Now that we have the URLs for the files, download them
 # =============================================================================
+download_and_save_file('http://www.jazz-on-line.com/a/mp3a/PARP2243.mp3')
 
 
 # Define a function that saves a file, given a URL:
@@ -106,3 +108,21 @@ for mp3_link in mp3_links_from_website:
     download_and_save_file(mp3_link)  # Download the file.
     # Pause before moving on in the loop:
     time.sleep(number_of_seconds_to_wait_between_downloads)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
